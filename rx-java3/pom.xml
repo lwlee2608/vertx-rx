@@ -230,6 +230,21 @@
     </dependency>
     <dependency>
       <groupId>io.vertx</groupId>
+      <artifactId>vertx-grpc-common</artifactId>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>io.vertx</groupId>
+      <artifactId>vertx-grpc-client</artifactId>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>io.vertx</groupId>
+      <artifactId>vertx-grpc-server</artifactId>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>io.vertx</groupId>
       <artifactId>vertx-circuit-breaker</artifactId>
       <optional>true</optional>
     </dependency>
@@ -542,6 +557,9 @@
             vertx-web-sstore-infinispan,
             vertx-web-graphql,
             vertx-web-validation,
+            vertx-grpc-common,
+            vertx-grpc-client,
+            vertx-grpc-server,
             vertx-circuit-breaker,
             vertx-dropwizard-metrics,
             vertx-redis-client,
